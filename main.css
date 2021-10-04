@@ -48,9 +48,10 @@ section{
 }
 /* stylling contact in header */
 .contact {
-    background-color: #006400;
+    background-color: #7ae582;
     font-weight: bold;
     padding: 3px 40px 3px 3px;
     text-align: right;
     color: #fff;
+    border: 1.5px solid #0eb04d;
 }
