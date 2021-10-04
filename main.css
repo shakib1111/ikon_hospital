@@ -1,11 +1,12 @@
 /* stylling heading */
 .hero-heading{
-    border: 2px solid lightblue;
+    border: 2px solid black;
     border-radius: 9px;
     padding: 3px;
     text-align: center;
     color: #000;
     background-color: #c0fdff;
+    font-family: Sarpanch;
 }
 
 /* stylling section */
@@ -15,5 +16,12 @@ section{
     padding: 100px;
     border: 2px solid black;
     background-color: #c0fdff;
+    margin: 50px;
 }
 
+/* stylling login form */
+.login-form{
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+}
