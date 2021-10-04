@@ -5,16 +5,15 @@
     padding: 3px;
     text-align: center;
     color: #000;
-    background-color: #bee1e6;
+    background-color: #c0fdff;
 }
 
-/* stylling login buttons */
-.login-btns{
-    text-decoration: none;
-    color: black;
-    background-color: #b6ccfe;
-    padding: 5px;
-    border: 3px solid black;
-    border-radius: 3px;
+/* stylling section */
+
+section{
+    text-align: center;
+    padding: 100px;
+    border: 2px solid black;
+    background-color: #c0fdff;
 }
 
