@@ -6,12 +6,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ikon_hospital</title>
         <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sarpanch&display=swap" rel="stylesheet">
     </head>
     <body>
         <!-- header coding starting -->
         <header class="header">
             <div>
-                <h2 class="hero-heading">ikon Hospital</h2>
+                <h1 class="hero-heading">ikon Hospital</h1>
             </div>
 
         </header>
@@ -20,9 +23,29 @@
         <!-- main content coding starting -->
         <section>
 
-            <div>
-               
+            <div >
 
+                <div class="login-form"> 
+                
+                    <p>Please select your login:</p>
+
+                    <input type="radio" id="staff" name="login" value="staff">
+                    <label for="staff">Staff</label>
+                    <input type="radio" id="admin" name="login" value="admin">
+                    <label for="admin">Admin</label>
+                    <input type="radio" id="doctor" name="login" value="doctor">
+                    <label for="doctor">Doctor</label><br> <br><br>
+
+
+                    <label for="user-name" >Username:</label>
+                    <input type="text" for="user-name" placeholder="Enter your username" required title="This field is complusory">  <br><br>
+                    
+                    <label for="user-name" >Password:</label>
+                    <input type="text" for="user-name" placeholder="Enter your password" required title="This field is complusory"> <br><br>
+
+                    <input type="submit" value="Login">
+                    <input type="submit" value="Reset Password">
+                </div>
             </div>
 
         </section>
