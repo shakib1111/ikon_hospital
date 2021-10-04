@@ -1,33 +1,37 @@
-
+body {
+    background-color: #7ae582;
+}
 /* stylling heading */
 .hero-heading{
-    border: 2px solid black;
-    border-radius: 9px;
     padding: 3px;
     text-align: center;
-    color: #000;
-    background-color: #c0fdff;
+    color: green;
     font-family: 'Sarpanch';
-   
+    font-weight: bold;
+    border: 0px solid black;
+    border-radius: 9px;
+    background-color: #fff;
 }
-
+.header {
+    background-color: #7ae582;
+    margin-bottom: 100px;    
+    background-color: #fff;
+}
 .header a {
     text-decoration: none;
+    
 }
 
-.header a :hover {
-    color: #000;
-    background-color: #fff;   
-}
 /* stylling section */
 
 section{
+    margin: auto;
+    width: 40%;
     text-align: center;
     border-radius: 9px;
-    border: 2px solid black;
-    background-color: #c0fdff;
-    width: 100%;
-    height: auto;
+    border: 0px solid black;
+    background-color: #fff;
+   
 }
 
 /* stylling login form */
