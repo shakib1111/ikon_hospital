@@ -7,3 +7,14 @@
     color: #000;
     background-color: #bee1e6;
 }
+
+/* stylling login buttons */
+.login-btns{
+    text-decoration: none;
+    color: black;
+    background-color: #b6ccfe;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 3px;
+}
+
