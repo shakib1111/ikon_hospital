@@ -46,3 +46,11 @@ section{
 .login-para {
     font-family: 'Yaldevi', sans-serif;
 }
+/* stylling contact in header */
+.contact {
+    background-color: #006400;
+    font-weight: bold;
+    padding: 3px 40px 3px 3px;
+    text-align: right;
+    color: #fff;
+}
